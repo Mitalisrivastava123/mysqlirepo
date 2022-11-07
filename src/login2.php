@@ -6,7 +6,7 @@ $password = "secret";
 $dbname = "persons";
 
 
-
+// mysqli connection
 $conn = new mysqli($servername, $username, $password, $dbname);
 
 if ($conn->connect_error) {
@@ -34,5 +34,5 @@ if(isset($_POST["logout"]))
     session_destroy();
 }
 $conn->close();
-
+// connection close
 ?>

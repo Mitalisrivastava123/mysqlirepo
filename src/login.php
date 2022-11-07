@@ -14,6 +14,7 @@ else
 {
 if($password == $cpassword)
 {
+    // database insertion
     $sql="INSERT INTO registertable(name,email,password) values('$name', '$email', '$password')";
     if (mysqli_query($conn, $sql)) {  
     header("Location:login1.php");

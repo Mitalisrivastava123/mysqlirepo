@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <!-- form start -->
     <div class="container">
 <section class="vh-100 sec1">
   <div class="container h-100">
@@ -86,5 +87,6 @@
   </div>
 </section>
     </div>
+    <!-- form end -->
 </body>
 </html>
